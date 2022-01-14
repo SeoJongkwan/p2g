@@ -1,0 +1,13 @@
+[DB]
+host=125.131.88.117
+dbname=p2g
+user=p2guser
+password=p2guser
+port=5432
+table=["pg_load_metering", "pg_pv_metering", "pg_weather_asos", "pg_weather_ncst"]
+
+[settings]
+rid=["R0000000000D","R0000000000E","R0000000000F"]
+feature=["day_class","meter_value","tmp","hour"]
+train_start = 2021-04-30 23:59
+train_end = 2021-12-31

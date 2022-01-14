@@ -1,0 +1,10 @@
+[DB]
+host=125.131.88.117
+dbname=p2g
+user=p2guser
+password=p2guser
+port=5432
+
+
+
+

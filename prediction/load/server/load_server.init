@@ -1,0 +1,9 @@
+[server]
+host=0.0.0.0
+local=127.0.0.1
+container_host=load_server
+port=8876
+
+[settings]
+table=["pg_load_metering", "pg_pv_metering", "pg_weather_asos", "pg_weather_ncst", "pg_weather"]
+feature=["r_id","day_class","meter_value","tmp","hour"]
